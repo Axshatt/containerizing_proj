@@ -7,3 +7,11 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(3000)
+
+//Adding env vairiables using the terminal 
+
+// -e [env varialble]
+
+console.log(process.env.NAME);
+
+
